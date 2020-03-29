@@ -14,7 +14,7 @@ export default function App() {
 
   const handleBlur = () => {};
   const handleKeyUp = () => {
-    const tempName = name.toLowerCase()
+    const tempName = name.toLowerCase();
     for (person of favPersons) {
       if (tempName === person) {
         setStyle({ ...style, color: "#008000" });
